@@ -16,7 +16,9 @@ Install
 2) Change Line 44 ($to = "youremail@gmail.com";)
 to your email address.
 3) That's it! You're good to go!
-Features
+
+YOU DONT HAVE TO CREATE THE LOG FILE. IT WILL DO IT AUTOMATICALLY
+
 ===============
 * sends to desired email address
 * validates email address field
