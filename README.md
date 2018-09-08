@@ -18,8 +18,8 @@ to your email address.
 
 Additional Install Details
 ==============================
-The Log File will be created automatically
-if you want to use the contact form with a captcha. Delete index.html. Then rename captcha-form.html to index.html
+* The Log File will be created automatically
+* if you want to use the contact form with a captcha. Delete index.html. Then rename captcha-form.html to index.html
 
 Features
 ===============
@@ -32,7 +32,10 @@ Features
 
 Preview
 ========
+Non-Captcha Version
 <a href="https://nateduhamell.com/software/contact-form" alt="https://nateduhamell.com/software/contact-form" target="_blank">https://nateduhamell.com/software/contact-form</a>
+Captcha Version
+<a href="https://nateduhamell.com/software/contact-form/captcha-form.html" alt="https://nateduhamell.com/software/contact-form/captcha-form.html" target="_blank">https://nateduhamell.com/software/contact-form/captcha-form.html</a>
 
 License
 ==========
