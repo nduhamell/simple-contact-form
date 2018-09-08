@@ -25,7 +25,7 @@ YOU DONT HAVE TO CREATE THE LOG FILE. IT WILL DO IT AUTOMATICALLY
 
 Preview
 ========
-https://nateduhamell.com/software/contact-form
+<a href="https://nateduhamell.com/software/contact-form" alt="https://nateduhamell.com/software/contact-form" target="_blank">https://nateduhamell.com/software/contact-form</a>
 
 License
 ==========
