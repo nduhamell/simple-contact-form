@@ -1,7 +1,7 @@
 Simple Contact Form
 ====================================
 
-A contact form that takes submissions and emails it to a desired email address. If yoi notice any issues submit a request. 
+A contact form that takes submissions and emails it to a desired email address. If you notice any issues submit a request. 
 
 Versions
 ============
