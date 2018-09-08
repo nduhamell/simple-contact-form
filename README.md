@@ -3,10 +3,10 @@ Simple Contact Form
 
 A contact form that takes submissions and emails it to a desired email address. If yoi notice any issues submit a request. 
 
-Version 1.2
+Versions
 ============
 
-You can now store the form entries in a .log file for archivability. 
+1.2 - You can now store the form entries in a .log file for archivability. 
 
 Install
 ========
