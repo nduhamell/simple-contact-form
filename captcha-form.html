@@ -1,0 +1,146 @@
+<html>
+<head>
+<style>
+input, textarea {
+  display: block;
+  padding: 10px;
+  width: 400px;
+  margin-bottom: 15px;
+  border: 1px solid lightgray;
+  font-size: 15px;
+  outline: none;
+  font-family: "Raleway", sans-serif;
+  -webkit-transition: all .25s;
+     -moz-transition: all .25s;
+      -ms-transition: all .25s;
+       -o-transition: all .25s;
+          transition: all .25s;
+}
+input:focus, textarea:focus {
+  box-shadow: 0 0 10px 2px rgba(0, 0, 0, 0.19);
+}
+form button {
+  border: none;
+  padding: 10px 83px;
+  font-size: 20px;
+  background-color: black;
+  color: #fff;
+  font-weight: 700;
+  font-family: "Raleway", sans-serif;
+  margin-bottom: 40px;
+  cursor: pointer;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+textarea {
+  height: 150px;
+}
+.capbox {
+	background-color: #000000;
+	border: #afafaf 0px solid;
+	border-width: 0px 12px 0px 0px;
+	display: inline-block;
+	*display: inline; zoom: 1; /* FOR IE7-8 */
+	padding: 4px 20px 4px 4px;
+	}
+
+.capbox-inner {
+	font: bold 11px arial, sans-serif;
+	color: #000000;
+	background-color: #afafaf;
+	margin: 5px auto 0px auto;
+	padding: 3px;
+	-moz-border-radius: 4px;
+	-webkit-border-radius: 4px;
+	border-radius: 4px;
+	}
+
+#CaptchaDiv {
+	font: bold 17px verdana, arial, sans-serif;
+	font-style: italic;
+	color: #000000;
+	background-color: #FFFFFF;
+	padding: 4px;
+	-moz-border-radius: 4px;
+	-webkit-border-radius: 4px;
+	border-radius: 4px;
+	}
+
+#CaptchaInput { margin: 1px 0px 1px 0px; width: 105px; height: 20px; }
+</style>
+</head>
+<body>
+<br>
+<!--- Begin Content --->
+<center>
+<h3>Contact Form</h3>
+<br>
+<form action="sendmail/sendmail.php" method="post" onsubmit="return checkform(this);">
+  <input type="text" name="name" id="" placeholder="Your Name" required>
+<br>
+  <input type="email" name="email" id="" placeholder="E-mail Address" required>
+<br>
+  <textarea name="message" id="" cols="30" rows="10" placeholder="Type Your Message" required></textarea>
+<!-- START CAPTCHA -->
+<div class="capbox">
+<div id="CaptchaDiv"></div>
+<div class="capbox-inner">
+Type the above number:<br>
+<input type="hidden" id="txtCaptcha">
+<input type="text" name="CaptchaInput" id="CaptchaInput" size="15"><br>
+</div>
+</div>
+<br>
+<br>
+  <button type="submit">Send</button>
+</form>
+<script type="text/javascript">
+
+// Captcha Script
+
+function checkform(theform){
+var why = "";
+
+if(theform.CaptchaInput.value == ""){
+why += "- Please Enter CAPTCHA Code.\n";
+}
+if(theform.CaptchaInput.value != ""){
+if(ValidCaptcha(theform.CaptchaInput.value) == false){
+why += "- The CAPTCHA Code Does Not Match.\n";
+}
+}
+if(why != ""){
+alert(why);
+return false;
+}
+}
+
+var a = Math.ceil(Math.random() * 9)+ '';
+var b = Math.ceil(Math.random() * 9)+ '';
+var c = Math.ceil(Math.random() * 9)+ '';
+var d = Math.ceil(Math.random() * 9)+ '';
+var e = Math.ceil(Math.random() * 9)+ '';
+
+var code = a + b + c + d + e;
+document.getElementById("txtCaptcha").value = code;
+document.getElementById("CaptchaDiv").innerHTML = code;
+
+// Validate input against the generated number
+function ValidCaptcha(){
+var str1 = removeSpaces(document.getElementById('txtCaptcha').value);
+var str2 = removeSpaces(document.getElementById('CaptchaInput').value);
+if (str1 == str2){
+return true;
+}else{
+return false;
+}
+}
+// Remove the spaces from the entered and generated code
+function removeSpaces(string){
+return string.split(' ').join('');
+}
+</script>
+<br>
+<br>
+</body>
+</html>
