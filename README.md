@@ -32,9 +32,9 @@ Features
 
 Preview
 ========
-Non-Captcha Version
+* Non-Captcha Version
 <a href="https://nateduhamell.com/software/contact-form" alt="https://nateduhamell.com/software/contact-form" target="_blank">https://nateduhamell.com/software/contact-form</a>
-Captcha Version
+* Captcha Version
 <a href="https://nateduhamell.com/software/contact-form/captcha-form.html" alt="https://nateduhamell.com/software/contact-form/captcha-form.html" target="_blank">https://nateduhamell.com/software/contact-form/captcha-form.html</a>
 
 License
