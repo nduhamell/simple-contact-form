@@ -125,7 +125,7 @@ if(isset($_POST['name']) && isset($_POST['email']) && isset($_POST['message'])) 
     }
 }
 else {
-	header('location: ../redirect/contact.html');
+	header('location: redirect.html');
 }
 
 
