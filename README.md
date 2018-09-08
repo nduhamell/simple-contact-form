@@ -7,6 +7,7 @@ Versions
 ============
 
 1.2 - You can now store the form entries in a .log file for archivability. 
+1.3 - Added Captcha Form (cpatcha-form.html)
 
 Install
 ========
@@ -16,7 +17,7 @@ to your email address.
 3) That's it! You're good to go!
 
 YOU DONT HAVE TO CREATE THE LOG FILE. IT WILL DO IT AUTOMATICALLY
-
+(if you want to use the contact form with a captcha. Delete index.html. Then rename captcha-form.html to index.html)
 ===============
 * sends to desired email address
 * validates email address field
