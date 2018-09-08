@@ -27,7 +27,7 @@ YOU DONT HAVE TO CREATE THE LOG FILE. IT WILL DO IT AUTOMATICALLY
 
 Preview
 ========
-https://nated.xyz/software/contact-form/
+https://nateduhamell.com/software/contact-form
 
 License
 ==========
