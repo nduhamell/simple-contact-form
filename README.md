@@ -7,7 +7,7 @@ Versions
 ============
 
 * 1.2 - You can now store the form entries in a .log file for archivability. 
-* 1.3 - Added Captcha Form (cpatcha-form.html)
+* 1.3 - Added Captcha Form (captcha-form.html)
 
 Install
 ========
