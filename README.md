@@ -16,13 +16,19 @@ Install
 to your email address.
 3) That's it! You're good to go!
 
-YOU DONT HAVE TO CREATE THE LOG FILE. IT WILL DO IT AUTOMATICALLY
-(if you want to use the contact form with a captcha. Delete index.html. Then rename captcha-form.html to index.html)
+Additional Install Details
+==============================
+The Log File will be created automatically
+if you want to use the contact form with a captcha. Delete index.html. Then rename captcha-form.html to index.html
+
+Features
 ===============
 * sends to desired email address
 * validates email address field
 * modern and minimal design
 * lightweight
+* available captcha 
+* logs all entries for archivability
 
 Preview
 ========
