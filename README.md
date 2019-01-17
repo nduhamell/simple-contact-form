@@ -33,9 +33,9 @@ Features
 Preview
 ========
 * Non-Captcha Version
-<a href="https://nateduhamell.com/software/contact-form" alt="https://nateduhamell.com/software/contact-form" target="_blank">https://nateduhamell.com/software/contact-form</a>
+<a href="https://github.nated.xyz/demo/simple-contact-form/" alt="https://github.nated.xyz/demo/simple-contact-form/" target="_blank">https://github.nated.xyz/demo/simple-contact-form/</a>
 * Captcha Version
-<a href="https://nateduhamell.com/software/contact-form/captcha-form.html" alt="https://nateduhamell.com/software/contact-form/captcha-form.html" target="_blank">https://nateduhamell.com/software/contact-form/captcha-form.html</a>
+<a href="https://github.nated.xyz/demo/simple-contact-form/captcha-form.html" alt="https://github.nated.xyz/demo/simple-contact-form/captcha-form.html" target="_blank">https://github.nated.xyz/demo/simple-contact-form/captcha-form.html</a>
 
 License
 ==========
