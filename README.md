@@ -16,6 +16,11 @@ Install
 to your email address.
 3) That's it! You're good to go!
 
+Install Images
+===============
+<a href="https://i.imgur.com/ktQ3e5S.png" target="_blank"><img style="padding-left:5%;" src="https://i.imgur.com/ktQ3e5S.png" alt="Simple Contact Form Install Instructions" width="100%"></img></a>
+
+
 Additional Install Details
 ==============================
 * The Log File will be created automatically
