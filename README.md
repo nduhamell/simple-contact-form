@@ -18,7 +18,7 @@ to your email address.
 
 Install Images
 ===============
-<a href="https://i.imgur.com/d6Nflok.png" target="_blank"><img style="padding-left:5%;" src="hhttps://i.imgur.com/d6Nflok.png" alt="Simple Contact Form Install Instructions" width="100%"></img></a>
+<a href="https://i.imgur.com/d6Nflok.png" target="_blank"><img style="padding-left:5%;" src="https://i.imgur.com/d6Nflok.png" alt="Simple Contact Form Install Instructions" width="100%"></img></a>
 
 
 Additional Install Details
