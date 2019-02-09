@@ -41,8 +41,8 @@ if(empty($_POST) === false) {
 				$email 		= test_input($_POST['email']);
 				$message 	= test_input($_POST['message']);
 
-				$to 		= "nateduhamell@gmail.com";
-				$subject 	= "Nate Duhamell: You have a new message from " . $name;
+				$to 		= "your-email@gmail.com";
+				$subject 	= "Your Website Name: You have a new message from " . $name;
 				
 				$body 		= "
 					<html>
@@ -135,7 +135,7 @@ else {
 			    $headers .= "Content-type:text/html;charset=UTF-8" . "\r\n";
 
 			    // More headers
-			    $headers .= 'From:Nate Duhamell <no-Reply@nateduhamell.com>' . "\r\n";
+			    $headers .= 'From:Nate Duhamell <no-Reply@yourdomain.com>' . "\r\n";
 			    $headers .= "Reply-To: " . $email . "(" . $name . ")" . "\r\n";
 
 			    mail($to,$subject,$body,$headers);
