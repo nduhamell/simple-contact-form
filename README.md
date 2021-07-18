@@ -1,11 +1,13 @@
 Simple Contact Form
 ====================================
-
 A contact form that takes submissions and emails it to a desired email address. If you notice any issues submit a request. 
+
+Documentation
+==============
+https://nateduhamell.com/github-project-simple-contact-form/
 
 Versions
 ============
-
 * 1.2 - You can now store the form entries in a .log file for archivability. 
 * 1.3 - Added Captcha Form (captcha-form.html)
 
